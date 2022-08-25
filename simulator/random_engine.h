@@ -7,7 +7,7 @@
 
 #include <random>
 
-namespace qram_engine {
+namespace qram_simulator {
 
     struct random_engine
     {

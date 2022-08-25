@@ -1,12 +1,12 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.20)
 project(QCL)
 
 set(QRAM_LIB QRAMSimulator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(LLVM_DIR "E:\\llvm\\lib\\cmake\\llvm")
-set(MLIR_DIR "E:\\llvm\\lib\\cmake\\mlir")
+#set(LLVM_DIR "E:\\llvm\\lib\\cmake\\llvm")
+#set(MLIR_DIR "E:\\llvm\\lib\\cmake\\mlir")
 
 find_package(MLIR REQUIRED CONFIG)
 
